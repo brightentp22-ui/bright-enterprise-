@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# This rule ensures that React Router handles all routing on the client side.
+# Without this, refreshing a page like /projects on Netlify would result in a 404 error.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
