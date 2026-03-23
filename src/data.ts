@@ -3,7 +3,7 @@ import { Building2, Zap, ShieldAlert, Wrench, Wind, Settings } from 'lucide-reac
 export const companyInfo = {
   name: "Bright Enterprises",
   tagline: "An Engineering Company",
-  description: "Specializing in HVAC, Fire Fighting, and Electrical solutions.",
+  description: "Specializing in HVAC, Fire Fighting, Electrical and Plumbing Work.",
   proprietor: "Md Rashid Ali",
   phone1: "+91-9871721814",
   phone2: "+91-8674972400",
