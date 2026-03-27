@@ -92,7 +92,7 @@ export default function Hero() {
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6">
             Welcome to <br className="hidden md:block" />
-            <span className="text-[#2b7a96]">Bright Enterprise</span>
+            <span className="text-[#2b7a96]">Bright Star</span>
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 px-4 sm:px-0">
             {companyInfo.description} Delivering integrated Mechanical, Electrical, Fire fighting, and Plumbing solutions for commercial projects.
