@@ -1,7 +1,7 @@
 import { Building2, Zap, ShieldAlert, Wrench, Wind, Settings } from 'lucide-react';
 
 export const companyInfo = {
-  name: "Bright Enterprises",
+  name: "Bright Star",
   tagline: "An Engineering Company",
   description: "Specializing in HVAC, Fire Fighting, Electrical and Plumbing Work.",
   proprietor: "Md Rashid Ali",

@@ -22,7 +22,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Who We Are</h3>
             <p className="text-slate-600 leading-relaxed">
-              Bright Enterprises is a premier MEP service provider based in New Delhi, India. We specialize in delivering integrated Mechanical, Electrical, Fire fighting, HVAC WORK and Plumbing solutions for commercial engineering projects.
+              Bright Star is a premier MEP service provider based in New Delhi, India. We specialize in delivering integrated Mechanical, Electrical, Fire fighting, HVAC WORK and Plumbing solutions for commercial engineering projects.
             </p>
           </motion.div>
 
