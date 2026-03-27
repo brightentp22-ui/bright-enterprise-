@@ -88,7 +88,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-200 text-sm font-semibold tracking-wider mb-6 border border-brand-500/30 backdrop-blur-sm">
-            8 YEARS OF EXCELLENCE
+            8+ YEARS OF EXCELLENCE
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6">
             Welcome to <br className="hidden md:block" />

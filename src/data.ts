@@ -70,7 +70,7 @@ export const projects = [
     duration: "Jan 2021 to Nov 2024",
     value: "₹ 7,825,900",
     scope: "Complete Heating, Ventilation, and Air Conditioning installation Work commercial development in Gurugram.",
-    image: "https://www.parasbuildtech.com/all-images/project-img/banner_1764162255.jpg"
+    image: "https://www.discoverasr.com/content/dam/tal/media/images/properties/india/gurgaon/citadines-paras-square-gurugram/overview/India_Gurugram_CitadinesParasSquare_Facade_LR.jpg.transform/ascott-highres/image.jpg"
   },
   {
     name: "Omax Chandni Chowk",
@@ -84,7 +84,7 @@ export const projects = [
     duration: "Oct 2024 to Jun 2025",
     value: "₹ 10,174,300",
     scope: "Fire Fighting installation Work Commercial development in Noida.",
-    image: "https://myrealestatepublic.s3.ap-south-1.amazonaws.com/Project__c/a0EC5000002fg9PMAQ/bhutani%20cyberthum%20MRE%20Img-4_07272023122734.jpg"
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/4/300979855/DE/KT/NX/101966480/cyberthum-ultima-pods-phase-i-1000x1000.jpg"
   },
   {
     name: "Eon Firfoxe",
