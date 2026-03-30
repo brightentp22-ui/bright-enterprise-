@@ -52,14 +52,14 @@ export default function Hero() {
       </div>
 
       {/* Navigation Controls */}
-      <button 
+      <button
         onClick={prevImage}
         className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-black/30 hover:bg-black/50 text-white backdrop-blur-md transition-all border border-white/20 opacity-0 group-hover:opacity-100 focus:opacity-100"
         aria-label="Previous image"
       >
         <ChevronLeft size={28} />
       </button>
-      <button 
+      <button
         onClick={nextImage}
         className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-30 p-3 rounded-full bg-black/30 hover:bg-black/50 text-white backdrop-blur-md transition-all border border-white/20 opacity-0 group-hover:opacity-100 focus:opacity-100"
         aria-label="Next image"
@@ -73,9 +73,8 @@ export default function Hero() {
           <button
             key={index}
             onClick={() => setCurrentImageIndex(index)}
-            className={`w-2.5 h-2.5 rounded-full transition-all ${
-              index === currentImageIndex ? 'bg-white w-8' : 'bg-white/50 hover:bg-white/80'
-            }`}
+            className={`w-2.5 h-2.5 rounded-full transition-all ${index === currentImageIndex ? 'bg-white w-8' : 'bg-white/50 hover:bg-white/80'
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
@@ -88,26 +87,25 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-200 text-sm font-semibold tracking-wider mb-6 border border-brand-500/30 backdrop-blur-sm">
-            8+ YEARS OF EXCELLENCE IN DELHI NCR
+            8+ YEARS OF EXCELLENCE
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6">
-            <span className="text-[#2b7a96]">Bright Star MEP</span><br className="hidden md:block" />
-            Premier MEP Contractors<br className="hidden md:block" />
-            in Delhi NCR
+            Welcome to <br className="hidden md:block" />
+            <span className="text-[#2b7a96]">Bright Star</span>
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 px-4 sm:px-0">
-            Bright Star MEP delivers expert HVAC installation, fire fighting systems, electrical works, and commercial plumbing services for commercial &amp; industrial projects across New Delhi, Noida, and Gurugram.
+            {companyInfo.description} Delivering integrated Mechanical, Electrical, Fire fighting, and Plumbing solutions for commercial projects.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4 sm:px-0">
-            <Link 
+            <Link
               to="/projects"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-lg text-white bg-brand-600 hover:bg-brand-700 transition-colors duration-300 w-full sm:w-auto"
             >
               View Our Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
-            <Link 
+            <Link
               to="/contact"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-lg text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 transition-colors duration-300 w-full sm:w-auto"
             >
