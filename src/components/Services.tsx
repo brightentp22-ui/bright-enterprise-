@@ -12,18 +12,19 @@ export default function Services({ limit }: { limit?: number }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            transition={{ duration: 0.35 }}
             className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl"
           >
             Our Core Services
           </motion.h2>
           <motion.p 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ delay: 0.05, duration: 0.35 }}
             className="mt-4 text-lg text-slate-600"
           >
             We provide efficient, reliable, and cost-effective engineering solutions prioritizing safety, compliance, and innovation.
@@ -39,7 +40,7 @@ export default function Services({ limit }: { limit?: number }) {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
+                transition={{ delay: index * 0.06, duration: 0.35 }}
                 className="group flex flex-col bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all overflow-hidden"
               >
                 <div className="relative h-48 overflow-hidden">

@@ -13,18 +13,19 @@ export default function Projects({ limit }: { limit?: number }) {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
             <motion.h2 
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
+              transition={{ duration: 0.35 }}
               className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl mb-4"
             >
               Project Showcase
             </motion.h2>
             <motion.p 
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
+              transition={{ delay: 0.05, duration: 0.35 }}
               className="text-lg text-slate-600"
             >
               A selection of our successfully delivered and ongoing MEP projects across commercial and residential sectors.
@@ -48,7 +49,7 @@ export default function Projects({ limit }: { limit?: number }) {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.05, duration: 0.5 }}
+              transition={{ delay: index * 0.04, duration: 0.35 }}
               className="group flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden">

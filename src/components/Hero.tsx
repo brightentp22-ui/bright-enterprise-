@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { companyInfo } from '../data';
@@ -15,13 +15,19 @@ const backgroundImages = [
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const nextImage = () => {
+  const nextImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev + 1) % backgroundImages.length);
-  };
+  }, []);
 
-  const prevImage = () => {
+  const prevImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev - 1 + backgroundImages.length) % backgroundImages.length);
-  };
+  }, []);
+
+  // Auto-advance every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(nextImage, 5000);
+    return () => clearInterval(timer);
+  }, [nextImage]);
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden group">
@@ -39,7 +45,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.2, ease: "easeInOut" }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
             className="absolute inset-0"
             style={{
               backgroundImage: `url("${backgroundImages[currentImageIndex]}")`,
