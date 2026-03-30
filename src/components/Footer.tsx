@@ -75,6 +75,17 @@ export default function Footer() {
 
         </div>
 
+        {/* Service Area */}
+        <div className="pt-6 pb-2 text-center">
+          <p className="text-slate-500 text-sm">
+            <span className="font-medium text-slate-400">Bright Star MEP</span> proudly serves{' '}
+            <span className="text-brand-400">New Delhi</span>,{' '}
+            <span className="text-brand-400">Noida</span>,{' '}
+            <span className="text-brand-400">Gurugram</span>, and the wider{' '}
+            <span className="text-brand-400">Delhi NCR</span> region.
+          </p>
+        </div>
+
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-slate-500 text-sm text-center md:text-left">

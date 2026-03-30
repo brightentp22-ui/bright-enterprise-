@@ -22,7 +22,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Who We Are</h3>
             <p className="text-slate-600 leading-relaxed">
-              Bright Star is a premier MEP service provider based in New Delhi, India. We specialize in delivering integrated Mechanical, Electrical, Fire fighting, HVAC WORK and Plumbing solutions for commercial engineering projects.
+              Bright Star MEP is a premier MEP contractor based in New Delhi, India — providing trusted building services to commercial and industrial clients across Delhi NCR. We specialise in HVAC installation, fire fighting systems, electrical works, and commercial plumbing solutions.
             </p>
           </motion.div>
 

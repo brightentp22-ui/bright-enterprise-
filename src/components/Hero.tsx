@@ -88,14 +88,15 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-200 text-sm font-semibold tracking-wider mb-6 border border-brand-500/30 backdrop-blur-sm">
-            8+ YEARS OF EXCELLENCE
+            8+ YEARS OF EXCELLENCE IN DELHI NCR
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6">
-            Welcome to <br className="hidden md:block" />
-            <span className="text-[#2b7a96]">Bright Star</span>
+            <span className="text-[#2b7a96]">Bright Star MEP</span><br className="hidden md:block" />
+            Premier MEP Contractors<br className="hidden md:block" />
+            in Delhi NCR
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 px-4 sm:px-0">
-            {companyInfo.description} Delivering integrated Mechanical, Electrical, Fire fighting, and Plumbing solutions for commercial projects.
+            Bright Star MEP delivers expert HVAC installation, fire fighting systems, electrical works, and commercial plumbing services for commercial &amp; industrial projects across New Delhi, Noida, and Gurugram.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4 sm:px-0">

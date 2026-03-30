@@ -13,37 +13,37 @@ export const companyInfo = {
 
 export const services = [
   {
-    title: "HVAC WORK",
+    title: "HVAC Installation & Maintenance",
     description: "Complete Heating, Ventilation, and Air Conditioning installation and maintenance.",
     icon: Wind,
     image: "https://www.ny-engineers.com/hubfs/2022/Home/Compress%20Images/Space-%20cooling-chiller.jpg"
   },
   {
-    title: "VENTILATION",
+    title: "Industrial Ventilation Systems",
     description: "Industrial and commercial ventilation systems for optimal air quality.",
     icon: Building2,
     image: "https://envigaurd.com/topics/wp-content/uploads/2025/04/Basement-Ventilation-System.jpg"
   },
   {
-    title: "VRV / VRF",
+    title: "VRV / VRF Energy Systems",
     description: "Advanced Variable Refrigerant Volume/Flow systems for energy efficiency.",
     icon: Settings,
     image: "/vrv-vrf.jpg"
   },
   {
-    title: "ELECTRICAL",
+    title: "Electrical Works & Wiring",
     description: "Comprehensive electrical wiring, panels, and lighting solutions.",
     icon: Zap,
     image: "https://bhartiengineers.com/wp-content/uploads/2019/11/Electrical-Panel-scaled.jpg"
   },
   {
-    title: "FIRE FIGHTING",
+    title: "Fire Fighting Systems",
     description: "Design and installation of fire suppression and safety systems.",
     icon: ShieldAlert,
     image: "https://5.imimg.com/data5/SELLER/Default/2022/11/KO/IU/DU/50780910/fire-pump-room.png"
   },
   {
-    title: "TECHNICAL SUPPORT",
+    title: "MEP Technical Support & AMC",
     description: "Ongoing maintenance and technical services for all MEP installations.",
     icon: Wrench,
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
